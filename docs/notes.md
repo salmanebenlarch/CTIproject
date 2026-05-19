@@ -1,0 +1,6 @@
+- FastAPI backend with VirusTotal integration and role-aware routes.
+- SQLite + SQLAlchemy persistence for users, analysis history, and revoked JWTs.
+- bcrypt password hashing and JWT access tokens with expiration.
+- Dashboard cards and analysis-by-type data are populated from persisted analysis history.
+- Admin panel supports runtime VT API key override, create/delete users, role changes, and per-user analysis history.
+- Hacker News feed supports category filtering, backend caching, and frontend auto-refresh every 5 minutes.
